@@ -1,5 +1,5 @@
-FROM golang:1.18
+FROM golang:1.17
 
 RUN apt update && \
-    apt install vim
+    apt install -y vim
 
