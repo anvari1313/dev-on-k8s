@@ -1,4 +1,5 @@
 FROM golang:1.18
 
-RUN apt install vim
+RUN apt update && \
+    apt install vim
 
